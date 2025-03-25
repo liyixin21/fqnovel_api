@@ -124,7 +124,7 @@ pub struct ItemContent {
     pub text_type: i64,
     pub crypt_status: i64,
     pub compress_status: i64,
-    pub key_version: i64,
+    pub key_version: Option<i64>,
     pub paragraphs_num: i64,
     // pub author_speak: String,
 }
